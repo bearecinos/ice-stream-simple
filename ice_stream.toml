@@ -3,7 +3,7 @@
 run_name = "ice_stream"
 input_dir = "/home/brecinos/ice-stream-simple/input"
 output_dir = "/home/brecinos/ice-stream-simple/output"
-diagnostics_dir = "/home/brecinos/ice-stream-simple/diagnostics"
+#diagnostics_dir = "/home/brecinos/ice-stream-simple/diagnostics"
 
 
 thick_data_file = "/home/brecinos/ice-stream-simple/input/ice_stream_data.h5"
@@ -13,7 +13,7 @@ alpha_data_file = "/home/brecinos/ice-stream-simple/input/ice_stream_data.h5"
 bglen_data_file = "/home/brecinos/ice-stream-simple/input/ice_stream_data.h5"
 
 log_level = "info" #This is default
-write_diagnostics = true
+#write_diagnostics = true
 
 [constants]
 
@@ -73,7 +73,7 @@ m = 20
 c1 = 1.0e-3
 c2 = 0.9
 #delta_lbfgs = 1.0e3
-phase_suffix = '_dual_inv_'
+#phase_suffix = '_dual_inv_'
 
 verbose = true
 
@@ -127,7 +127,7 @@ total_steps = 5
 num_sens = 6 #TODO rename
 
 save_every_tstep = true
-phase_suffix = '_num_sens_6_'
+#phase_suffix = '_num_sens_6_'
 
 [checkpointing]
 
